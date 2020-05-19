@@ -1,0 +1,7 @@
+package survivalGame;
+
+public class Forest extends BattleLocation {
+    Forest(Player player) {
+        super(player, "Orman", new Vampire(),"Odun");
+    }
+}
